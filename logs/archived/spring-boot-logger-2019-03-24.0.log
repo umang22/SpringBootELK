@@ -1,0 +1,51 @@
+2019-03-24 10:14:24,997 ERROR org.springframework.boot.context.logging.LoggingApplicationListener [restartedMain] Cannot set level 'TRACEs' for 'haysPoc.springPoc'
+2019-03-24 10:14:29,045 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-03-24 10:14:50,936 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] A WARN Message
+2019-03-24 10:14:50,940 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] An ERROR Message
+2019-03-24 10:32:31,169 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m33s346ms172µs439ns).
+2019-03-24 10:33:21,193 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] A WARN Message
+2019-03-24 10:33:21,193 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] An ERROR Message
+2019-03-24 10:33:27,606 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-7] A WARN Message
+2019-03-24 10:33:27,607 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-7] An ERROR Message
+2019-03-24 10:33:27,767 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] A WARN Message
+2019-03-24 10:33:27,768 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] An ERROR Message
+2019-03-24 10:33:27,923 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] A WARN Message
+2019-03-24 10:33:27,924 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] An ERROR Message
+2019-03-24 10:33:28,113 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-4] A WARN Message
+2019-03-24 10:33:28,114 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-4] An ERROR Message
+2019-03-24 10:33:28,255 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] A WARN Message
+2019-03-24 10:33:28,256 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] An ERROR Message
+2019-03-24 10:33:28,571 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-7] A WARN Message
+2019-03-24 10:33:28,571 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-7] An ERROR Message
+2019-03-24 10:33:28,737 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] A WARN Message
+2019-03-24 10:33:28,738 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] An ERROR Message
+2019-03-24 10:33:28,901 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] A WARN Message
+2019-03-24 10:33:28,902 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] An ERROR Message
+2019-03-24 10:33:29,092 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-4] A WARN Message
+2019-03-24 10:33:29,093 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-4] An ERROR Message
+2019-03-24 10:33:29,257 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] A WARN Message
+2019-03-24 10:33:29,258 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] An ERROR Message
+2019-03-24 10:33:29,455 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-7] A WARN Message
+2019-03-24 10:33:29,456 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-7] An ERROR Message
+2019-03-24 10:33:29,604 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] A WARN Message
+2019-03-24 10:33:29,604 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] An ERROR Message
+2019-03-24 10:33:29,776 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] A WARN Message
+2019-03-24 10:33:29,777 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] An ERROR Message
+2019-03-24 10:33:29,943 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-4] A WARN Message
+2019-03-24 10:33:29,944 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-4] An ERROR Message
+2019-03-24 10:33:30,095 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] A WARN Message
+2019-03-24 10:33:30,095 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] An ERROR Message
+2019-03-24 10:38:24,954 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] A WARN Message
+2019-03-24 10:38:24,954 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] An ERROR Message
+2019-03-24 10:38:25,104 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] A WARN Message
+2019-03-24 10:38:25,104 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-1] An ERROR Message
+2019-03-24 10:38:25,259 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-4] A WARN Message
+2019-03-24 10:38:25,259 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-4] An ERROR Message
+2019-03-24 10:38:25,423 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] A WARN Message
+2019-03-24 10:38:25,424 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-5] An ERROR Message
+2019-03-24 10:38:25,573 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-7] A WARN Message
+2019-03-24 10:38:25,574 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-7] An ERROR Message
+2019-03-24 10:38:25,730 WARN haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] A WARN Message
+2019-03-24 10:38:25,731 ERROR haysPoc.springPoc.controller.EmployeeController [http-nio-8080-exec-9] An ERROR Message
+2019-03-24 12:09:15,394 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m43s77ms172µs447ns).
+2019-03-24 16:55:17,041 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s984ms222µs300ns).

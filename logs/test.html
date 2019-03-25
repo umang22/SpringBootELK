@@ -1,0 +1,448 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Sun Mar 24 10:14:24 IST 2019</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Date">Date</td>
+<td class="Level">Level</td>
+<td class="Thread">Thread</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:14:24,997</td>
+<td class="Level">ERROR</td>
+<td class="Thread">restartedMain</td>
+<td class="Logger">org.springframework.boot.context.logging.LoggingApplicationListener</td>
+<td class="Message">Cannot set level &#39;TRACEs&#39; for &#39;haysPoc.springPoc&#39;</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:14:29,045</td>
+<td class="Level">WARN</td>
+<td class="Thread">restartedMain</td>
+<td class="Logger">org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration</td>
+<td class="Message">spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning</td>
+</tr>
+
+<tr class="warn even">
+<td class="Date">2019-03-24 10:14:50,936</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error odd">
+<td class="Date">2019-03-24 10:14:50,940</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn even">
+<td class="Date">2019-03-24 10:32:31,169</td>
+<td class="Level">WARN</td>
+<td class="Thread">HikariPool-1 housekeeper</td>
+<td class="Logger">com.zaxxer.hikari.pool.HikariPool</td>
+<td class="Message">HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m33s346ms172µs439ns).</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:21,193</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:21,193</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:27,606</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:27,607</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:27,767</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:27,768</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:27,923</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:27,924</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:28,113</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-4</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:28,114</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-4</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:28,255</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:28,256</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:28,571</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:28,571</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:28,737</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:28,738</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:28,901</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:28,902</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:29,092</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-4</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:29,093</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-4</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:29,257</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:29,258</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:29,455</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:29,456</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:29,604</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:29,604</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:29,776</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:29,777</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:29,943</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-4</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:29,944</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-4</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:33:30,095</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:33:30,095</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:38:24,954</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:38:24,954</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:38:25,104</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:38:25,104</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-1</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:38:25,259</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-4</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:38:25,259</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-4</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:38:25,423</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:38:25,424</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-5</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:38:25,573</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:38:25,574</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-7</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 10:38:25,730</td>
+<td class="Level">WARN</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">A WARN Message</td>
+</tr>
+
+<tr class="error even">
+<td class="Date">2019-03-24 10:38:25,731</td>
+<td class="Level">ERROR</td>
+<td class="Thread">http-nio-8080-exec-9</td>
+<td class="Logger">haysPoc.springPoc.controller.EmployeeController</td>
+<td class="Message">An ERROR Message</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-24 12:09:15,394</td>
+<td class="Level">WARN</td>
+<td class="Thread">HikariPool-1 housekeeper</td>
+<td class="Logger">com.zaxxer.hikari.pool.HikariPool</td>
+<td class="Message">HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m43s77ms172µs447ns).</td>
+</tr>
+
+<tr class="warn even">
+<td class="Date">2019-03-24 16:55:17,041</td>
+<td class="Level">WARN</td>
+<td class="Thread">HikariPool-1 housekeeper</td>
+<td class="Logger">com.zaxxer.hikari.pool.HikariPool</td>
+<td class="Message">HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s984ms222µs300ns).</td>
+</tr>
+
+<tr class="warn odd">
+<td class="Date">2019-03-25 08:39:19,220</td>
+<td class="Level">WARN</td>
+<td class="Thread">HikariPool-1 housekeeper</td>
+<td class="Logger">com.zaxxer.hikari.pool.HikariPool</td>
+<td class="Message">HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h44m15s767ms966µs819ns).</td>
+</tr>
